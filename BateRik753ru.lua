@@ -727,7 +727,7 @@ local function isWindshrineOnCooldown()
     return isOnCooldown
 end
 
-local Config = { WindowName = "Kocmoc v"..temptable.version.." Remastered", Color = Color3.fromRGB(164, 84, 255), Keybind = Enum.KeyCode.Semicolon}
+local Config = { WindowName = "Помошник фарма Bee Swarm Simulator by BateRik753"..temptable.version.." Обновления", Color = Color3.fromRGB(164, 84, 255), Keybind = Enum.KeyCode.Semicolon}
 local Window = library:CreateWindow(Config, game:GetService("CoreGui"))
 
 local hometab = Window:CreateTab("Home")
