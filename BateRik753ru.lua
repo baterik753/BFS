@@ -730,14 +730,14 @@ end
 local Config = { WindowName = "Помошник фарма Bee Swarm Simulator by BateRik753 "..temptable.version.." Обновления", Color = Color3.fromRGB(164, 84, 255), Keybind = Enum.KeyCode.Semicolon}
 local Window = library:CreateWindow(Config, game:GetService("CoreGui"))
 
-local hometab = Window:CreateTab("Home")
-local farmtab = Window:CreateTab("Farming")
-local combtab = Window:CreateTab("Combat")
-local wayptab = Window:CreateTab("Waypoints")
-local itemstab = Window:CreateTab("Items")
-local misctab = Window:CreateTab("Misc")
-local extrtab = Window:CreateTab("Extra")
-local setttab = Window:CreateTab("Settings")
+local hometab = Window:CreateTab("Информация")
+local farmtab = Window:CreateTab("Сбор пильцы")
+local combtab = Window:CreateTab("Убить")
+local wayptab = Window:CreateTab("Телепорт")
+local itemstab = Window:CreateTab("Предметы")
+local misctab = Window:CreateTab("Разное")
+local extrtab = Window:CreateTab("Дополнительный")
+local setttab = Window:CreateTab("Настройки")
 
 local information = hometab:CreateSection("Информация")
 information:CreateLabel("Привет, "..api.nickname.."!")
